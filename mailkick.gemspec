@@ -1,7 +1,4 @@
-
-lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "mailkick/version"
+require_relative "lib/mailkick/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "mailkick"
@@ -29,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sendgrid_toolkit"
   spec.add_development_dependency "combustion"
   spec.add_development_dependency "rails"
-  spec.add_development_dependency "sqlite3", "~> 1.3.0"
+  spec.add_development_dependency "sqlite3"
 end

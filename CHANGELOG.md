@@ -1,6 +1,7 @@
-## 0.3.2 [unreleased]
+## 0.4.0 [unreleased]
 
 - Fixed error with model methods and `email_key` option
+- Dropped support for Action Mailer 4.2
 
 ## 0.3.1
 
@@ -14,7 +15,7 @@
 - Fixed `Subscription not found` for Rails 5.2
 - Use `references` in migration
 - Use `smtp_settings[:domain]` for Mailgun
-- Dropped support for ActionMailer < 4.2
+- Dropped support for Action Mailer < 4.2
 
 ## 0.2.1
 
